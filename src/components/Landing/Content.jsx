@@ -50,8 +50,7 @@ function Content({isMetaMaskConnected, metaMaskAddress, metaMaskBalance}) {
 }
 const mapStateToProps = (state) => ({
     isMetaMaskConnected: state.metamask.isMetaMaskConnected,
-    metaMaskAddress: state.metamask.metaMaskAddress,
-    metaMaskBalance: state.metamask.metaMaskBalance
+    metaMaskAddress: state.metamask.metaMaskAddress
 })
 const mapDispatchToProps = {
 }
